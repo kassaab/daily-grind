@@ -36,40 +36,42 @@ if(urlParams.has("day")){//from querystring
  
 myDay = parseInt(myDay); //Must change to integer for switch statement
 
-//myDay = 3;    //for testing only
+//myDay = 0;    //for testing only
 
 
 
 
 switch(myDay){
 
-    case 0: //
+    case 0:
         today = "Sunday";
 
         coffee = {
-            name: "Pumpkin Spice",
-            pic: "images/pumpkin-spice-latte.jpg",
-            day: "Wednesday",
-            alt: "A pic of a Pumpkin Spice",
-            color: "orange",
-            desc: `One of our best sellers`
+            name: "Caramel Latte",
+            pic: "images/caramel-latte.jpg",
+            day: "Sunday",
+            alt: "A pic of a Caramel Late",
+            color: "red",
+            desc: `A classic blend of espresso, steamed milk, and rich caramel syrup`
 
         };
 
     break;
 
-    case 1: //
+    case 1:
         today = "Monday";
 
         coffee = {
-            name: "Pumpkin Spice",
-            pic: "images/pumpkin-spice-latte.jpg",
-            day: "Wednesday",
-            alt: "A pic of a Pumpkin Spice",
-            color: "orange",
-            desc: `One of our best sellers`
+            name: "Cold Brew",
+            pic: "images/cold-brew.jpg",
+            day: "Monday",
+            alt: "A pic of a Cold Brew",
+            color: "teal",
+            desc: `Smooth, concentrated coffee, slow-brewed over ice for a refreshing taste` //
 
         };
+
+    break;
 
     case 2:
         today = "Tuesday";
@@ -77,7 +79,7 @@ switch(myDay){
         coffee = {
             name: "Pumpkin Spice",
             pic: "images/pumpkin-spice-latte.jpg",
-            day: "Wednesday",
+            day: "Tuesday",
             alt: "A pic of a Pumpkin Spice",
             color: "orange",
             desc: `One of our best sellers`
@@ -101,42 +103,46 @@ switch(myDay){
     
     break;
 
-    case 4: //
-        today = Thursday;
+    case 4:
+        today = "Thursday";
 
         coffee = {
-            name: "Pumpkin Spice",
-            pic: "images/pumpkin-spice-latte.jpg",
-            day: "Wednesday",
-            alt: "A pic of a Pumpkin Spice",
-            color: "orange",
-            desc: `One of our best sellers`
-
-        };
-
-    case 5: //
-        today = Friday;
-
-        coffee = {
-            name: "Pumpkin Spice",
-            pic: "images/pumpkin-spice-latte.jpg",
-            day: "Wednesday",
-            alt: "A pic of a Pumpkin Spice",
-            color: "orange",
-            desc: `One of our best sellers`
+            name: "Drip",
+            pic: "images/drip.jpg",
+            day: "Thursday",
+            alt: "A pic of a Drip",
+            color: "siliver",
+            desc: `A traditional brewing method that produces a clean, flavorful cup of coffee` //
 
         };
     
-    case 6: //
-    today = Saturday;
+    break;
+
+    case 5:
+        today = "Friday";
+
+        coffee = {
+            name: "Frappaccino",
+            pic: "images/frappaccino.jpg",
+            day: "Friday",
+            alt: "A pic of a Frappaccino",
+            color: "olive",
+            desc: `A blended iced coffee drink with flavors, milk, and ice, perfect for a cool treat` //
+
+        };
+
+    break;
+    
+    case 6:
+    today = "Saturday";
 
     coffee = {
-        name: "Pumpkin Spice",
-        pic: "images/pumpkin-spice-latte.jpg",
-        day: "Wednesday",
-        alt: "A pic of a Pumpkin Spice",
-        color: "orange",
-        desc: `One of our best sellers`
+        name: "Mocha",
+        pic: "images/mocha.jpg",
+        day: "Saturday",
+        alt: "A pic of a Mocha",
+        color: "fuchsia",
+        desc: `A decadent coffee drink with chocolate and steamed milk, a chocolate lover's dream` //
 
     };
 
